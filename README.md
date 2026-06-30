@@ -13,9 +13,6 @@ A football player database built using HTML, CSS, and JavaScript.
 - CSS3
 - JavaScript
 
-## Screenshot
-
-(Add screenshot here)
 
 ## Future Improvements
 - Search functionality
