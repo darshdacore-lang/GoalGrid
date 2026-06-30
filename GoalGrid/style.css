@@ -1,0 +1,42 @@
+/* Style the entire page background */
+body {
+    background-color: #121212;
+    /* Dark background */
+    color: #ffffff;
+    /* White text for the main heading */
+    font-family: sans-serif;
+    /* Cleans up the font style */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Target the container holding all the players */
+#players {
+    display: grid;
+    /* This automatically creates as many 300px columns as will fit the screen */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Adds spacing between your player cards */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Style the individual player cards */
+.card {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #ccc;
+}
